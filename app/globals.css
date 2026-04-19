@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -128,3 +129,31 @@
     @apply font-sans;
   }
 }
+
+.btnbg{
+  background-color:#45A29E ;
+}
+.btntx{
+  color:#45A29E ;
+}
+.btntx1{
+  color:#66FCF1 ;
+}
+  
+ @font-face {
+  font-family: 'MyFont';
+  src: url('/public/meedori_sans/MeedoriSansBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.mainfon {
+  font-family: 'MyFont', sans-serif;
+}
+
+
+.playwrite-light {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
