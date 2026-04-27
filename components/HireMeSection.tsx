@@ -29,7 +29,7 @@ export default function HireMeSection() {
       <div className="grid z-50 md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE */}
-        <div>
+        <div className="z-50">
           <h2 className="text-3xl md:text-4xl font-bold text-[#66FCF1] mb-6">
             Why You Should Hire Me
           </h2>
@@ -60,7 +60,7 @@ export default function HireMeSection() {
           </div>
 
           {/* BUTTON */}
-          <button className="mt-8 cursor-pointer italic playwrite-light bg-[#45A29E] text-black px-6 py-2 rounded-full font-bold hover:bg-[#66FCF1] transition-all duration-300">
+          <button  className="mt-8 cursor-pointer italic playwrite-light bg-[#45A29E] text-black px-6 py-2 rounded-full font-bold hover:bg-[#66FCF1] transition-all duration-300">
            
             <a href="https://github.com/nwabuezedavid" target="_blank" rel="noopener noreferrer"> View My GitHub</a>
           </button>

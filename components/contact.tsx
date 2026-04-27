@@ -24,12 +24,12 @@ export default function ContactList() {
         Contact Me
       </h2>
 
-      <p className="text-gray-400 mb-12 max-w-xl mx-auto">
+      <p className="text-gray-400 mb-12  max-w-xl mx-auto">
         Have a project in mind? Reach out through any of these platforms — I’m always open to discussing new opportunities.
       </p>
 
       {/* CONTACT LIST */}
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex z-50 flex-col items-center gap-6">
 
         {/* EMAIL */}
         <a
