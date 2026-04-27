@@ -35,7 +35,7 @@ const projects = [
 export default function ProjectsSection() {
   return (
     <section id="projects" className="bg-[#0B0C10] flex w-full h-full flex-col relative playwrite-light text-white py-16 px-6 md:px-20">
-      <div className="absolute -z-10 w-full left-0 h-full top-0 ">
+      <div className="absolute  w-full left-0 h-full top-0 ">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-9.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[33%]"></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-[70%] max-md:top-[30%]"></p>
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
       </h2>
 
       {/* GRID */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid z-50 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         {projects.map((project, index) => (
           <div

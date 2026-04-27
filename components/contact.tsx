@@ -39,13 +39,13 @@ export default function ContactList() {
           <FiMail className="text-[#66FCF1] text-xl" />
           <div className="text-left">
             <p>Email</p>
-            <p className="text-sm text-gray-400">youremail@gmail.com</p>
+            <p className="text-sm text-gray-400">nwabuezedavid333@@gmail.com</p>
           </div>
         </a>
 
         {/* WHATSAPP */}
         <a
-          href="https://wa.me/234XXXXXXXXXX"
+          href="https://wa.me/+2349139060310"
           target="_blank"
           className="w-full max-w-md flex items-center gap-4 border border-[#66FCF1]/20 p-4 rounded-lg hover:border-[#66FCF1] transition-all duration-300 hover:shadow-[0_0_15px_#66FCF1]"
         >

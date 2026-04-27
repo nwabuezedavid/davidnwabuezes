@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <section className="flex items-center justify-center relative"> 
-    <div className="absolute -z-10 w-full left-0 h-full">
+    <div className="absolute  w-full left-0 h-full">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-4.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin right-4.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[50%]"></p>
@@ -19,7 +19,7 @@ const Header = () => {
         <p className=" bg-cyan-300 h-20 w-20   max-sm:hidden " style={{clipPath:" polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%)"}}></p>
         </div>
         </div> 
-        <main className="md:w-[60vw] max-md:w-full max-md:flex-col md:flex-row  capitalize flex playwrite-light w-[55vh] gap-[10%] items-center justify-center">
+        <main className="md:w-[60vw] z-50 max-md:w-full max-md:flex-col md:flex-row  capitalize flex playwrite-light w-[55vh] gap-[10%] items-center justify-center">
             <div className="w-[70%] max-md:w-[90%] flex flex-col gap-2 p-5 max-sm:text-xs ">
             <h1 className="">hello!</h1>
             <h4 className="text-4xl w ">I am  <strong className="text-[#66FCF1] drop-shadow-[0_0_8px_#66FCF1]">

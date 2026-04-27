@@ -2,7 +2,7 @@
 
 export default function HireMe() {
   return (
-    <section className="bg-[#0B0C10] text-white py-20 px-6 md:px-20 text-center">
+    <section className="bg-[#0B0C10] z-50 text-white py-20 px-6 md:px-20 text-center">
 
       {/* HEADING */}
       <h2 className="text-3xl md:text-5xl font-bold text-[#66FCF1] mb-6">

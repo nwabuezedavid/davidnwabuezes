@@ -3,7 +3,7 @@ import React from 'react'
 const FirstLevel = () => {
   return (
     <section className='flex w-full h-fit playwrite-light items-center justify-center relative  '>
-         <div className="absolute -z-10 w-full left-0 h-full">
+         <div className="absolute  w-full left-0 h-full">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-4.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[50%]"></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-[50%] max-md:top-[30%]"></p>
@@ -13,7 +13,7 @@ const FirstLevel = () => {
         <p className="border border-cyan-300 h-10 w-10 rounded-full animate-bounce absolute top-[60%] left-[70%]  max-md:top-[50%]"></p>
         
         </div>
-        <main className='h-[400px] max-md:h-fit w-[90%] flex max-md:flex-col  '>
+        <main className='h-[400px] z-50 max-md:h-fit w-[90%] flex max-md:flex-col  '>
                 <center      className='btntx1 text-5xl md:hidden p-3 max-md:text-[30px]'>I Build Systems That Scale</center>
 
             <img src="/ms.png" alt="" className=' max-md:w-full  w-1/2 rounded-b-full' />
