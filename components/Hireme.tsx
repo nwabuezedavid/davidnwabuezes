@@ -12,7 +12,7 @@ export default function HireMe() {
       {/* SUBTEXT */}
       <p className="max-w-2xl mx-auto text-gray-400 text-sm md:text-base leading-relaxed mb-10">
         I help businesses and individuals turn ideas into powerful, scalable web applications.
-        Whether you need a full product, a backend system, or a modern frontend — I’m ready to bring your vision to life with clean, efficient code.
+        Whether you need a full product, a backend system, or a modern frontend I’m ready to bring your vision to life with clean, efficient code.
       </p>
 
       {/* BUTTONS */}

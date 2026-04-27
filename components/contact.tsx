@@ -25,7 +25,7 @@ export default function ContactList() {
       </h2>
 
       <p className="text-gray-400 mb-12  max-w-xl mx-auto">
-        Have a project in mind? Reach out through any of these platforms — I’m always open to discussing new opportunities.
+        Have a project in mind? Reach out through any of these platforms I’m always open to discussing new opportunities.
       </p>
 
       {/* CONTACT LIST */}

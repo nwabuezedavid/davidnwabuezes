@@ -5,7 +5,7 @@ const testimonials = [
     name: "James Okafor",
     role: "Startup Founder",
     feedback:
-      "David delivered exactly what we needed — a scalable and fast platform. His attention to detail and problem-solving skills are top-notch.",
+      "David delivered exactly what we needed a scalable and fast platform. His attention to detail and problem-solving skills are top-notch.",
   },
   {
     name: "Sarah Williams",

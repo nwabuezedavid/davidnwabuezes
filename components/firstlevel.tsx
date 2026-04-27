@@ -19,7 +19,7 @@ const FirstLevel = () => {
             <img src="/ms.png" alt="" className=' max-md:w-full  w-1/2 rounded-b-full' />
             <div className='flex flex-col h-full w-1/2 max-md:w-full  p-4'>
                 <center      className='btntx1 text-5xl max-md:hidden'>I Build Systems That Scale</center>
-                <p className='flex  mt-4 text-gray-300 playwrite-light'>I design and develop powerful, production-ready web applications built for real-world performance. Every system I create is engineered with scalability, security, and long-term growth in mind — so your product doesn’t just work today, it continues to perform as your users grow.</p>
+                <p className='flex  mt-4 text-gray-300 playwrite-light'>I design and develop powerful, production-ready web applications built for real-world performance. Every system I create is engineered with scalability, security, and long-term growth in mind so your product doesn’t just work today, it continues to perform as your users grow.</p>
                
                <p  className='flex  mt-4 text-gray-300 playwrite-light'>From idea to deployment, I focus on clean architecture, efficient backend logic, and intuitive user experiences. Whether you're launching a new platform or improving an existing one, I build solutions that are reliable, maintainable, and ready for the future.</p>
                
