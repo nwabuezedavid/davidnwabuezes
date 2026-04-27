@@ -10,7 +10,7 @@ export default function ContactList() {
       className="bg-[#0B0C10] relative text-white py-20 px-6 md:px-20 text-center"
     >
       {/* TITLE */}
-      <div className="absolute w-full left-0 h-full playwrite-light">
+      <div className="absolute w-full -z-10 left-0 h-full playwrite-light">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-9.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[33%]"></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-[70%] max-md:top-[30%]"></p>
@@ -29,7 +29,7 @@ export default function ContactList() {
       </p>
 
       {/* CONTACT LIST */}
-      <div className="flex z-50 flex-col items-center gap-6">
+      <div className="flex z-50!  flex-col items-center gap-6">
 
         {/* EMAIL */}
         <a
