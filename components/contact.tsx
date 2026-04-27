@@ -58,7 +58,7 @@ export default function ContactList() {
 
         {/* GITHUB */}
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/nwabuezedavid
           target="_blank"
           className="w-full max-w-md flex items-center gap-4 border border-[#66FCF1]/20 p-4 rounded-lg hover:border-[#66FCF1] transition-all duration-300 hover:shadow-[0_0_15px_#66FCF1]"
         >

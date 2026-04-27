@@ -3,7 +3,7 @@ import React from 'react'
 const FirstLevel = () => {
   return (
     <section className='flex w-full h-fit playwrite-light items-center justify-center relative  '>
-         <div className="absolute w-full left-0 h-full">
+         <div className="absolute -z-10 w-full left-0 h-full">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-4.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[50%]"></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-[50%] max-md:top-[30%]"></p>

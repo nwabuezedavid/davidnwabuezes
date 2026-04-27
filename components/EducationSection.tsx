@@ -27,7 +27,7 @@ const education = [
 export default function EducationSection() {
   return (
     <section id="education" className="bg-[#0B0C10] h-fit w-full  playwrite-light flex flex-col relative text-white py-16 px-6 md:px-20">
-      <div className="absolute w-full left-0 h-full playwrite-light">
+      <div className="absolute w-full left-0 h-full -z-10 playwrite-light">
         <p className="border border-cyan-300 h-10 w-10 absolute top-2 animate-spin right-9.5 "></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-9.5 max-md:top-[33%]"></p>
         <p className="border border-cyan-300 h-10 w-10 absolute bottom-2 animate-spin left-[70%] max-md:top-[30%]"></p>
